@@ -1,9 +1,42 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FD5D14;
-    --secondary: #FDBE33;
+    --primary: #6ec1e4 !important;
+    --secondary: #aee2ff;
     --light: #F4F6F8;
     --dark: #040F28;
+    --main-font: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.fw-bold {
+    font-weight: 700 !important;
+    font-family: var(--main-font);
+}
+
+h3,
+h4,
+.h3,
+.h4,
+.fw-medium {
+    font-weight: 600 !important;
+    font-family: var(--main-font);
+}
+
+h5,
+h6,
+.h5,
+.h6,
+.p,
+.fw-semi-bold {
+    font-weight: 500 !important;
+    font-family: var(--main-font);
 }
 
 .pt-6 {
@@ -77,7 +110,7 @@
 .back-to-top {
     position: fixed;
     display: none;
-    left: 50%;
+    right: 1%;
     bottom: 0;
     margin-left: -22px;
     border-radius: 0;
@@ -102,27 +135,120 @@
     background-size: 3px 3px;
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    position: relative;
-    padding: 35px 15px;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: var(--light);
-    outline: none;
+.navbar.sticky-top {
+    top: -100px;
     transition: .5s;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link.active {
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 20px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
     color: var(--primary);
 }
 
-@media (max-width: 991.98px) {
-    .navbar-dark .navbar-nav .nav-link  {
-        margin-left: 0;
-        padding: 10px 0;
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+@media (max-width: 420px) {
+    .btn-sm-square {
+        width: 42px;
+        height: 32px;
+    }
+
+    .btn-circle-square {
+        width: 62px;
+        height: 50px;
     }
 }
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 10px 1rem;
+    clear: both;
+    font-weight: 500;
+    color: #14183e;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    font-size: 0.95rem;
+}
+
+/* This code for mobile menu sub dropdown */
+@media (min-width: 320px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+
+    ul.dropdown-menu {
+        display: none !important;
+    }
+
+    .menu-item.dropdown:hover ul.dropdown-menu {
+        display: block !important;
+        box-shadow: 0 0 12px rgb(196 185 185);
+    }
+}
+
 
 .carousel-caption {
     top: 0;
@@ -241,6 +367,7 @@
 }
 
 @media (min-width: 992px) {
+
     .testimonial,
     .contact-form {
         margin-left: -90px;
@@ -271,3 +398,239 @@
 }
 
 
+/*** About Page ***/
+.section-title {
+    color: #6ec1e4;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background-color: #6ec1e4;
+}
+
+.overview-card,
+.history-card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.overview-card:hover,
+.history-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #6ec1e4;
+    color: white;
+    padding: 15px 20px;
+    border-bottom: none;
+}
+
+.card-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+
+.tagline {
+    font-style: italic;
+    font-weight: 500;
+    color: #6ec1e4;
+    margin: 20px 0;
+    padding: 10px 15px;
+    border-left: 4px solid #6ec1e4;
+    background-color: rgba(255, 107, 0, 0.05);
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-header h3 {
+        font-size: 1.1rem;
+    }
+
+    .founder-img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+/*** Team Start ***/
+
+.team-item {
+    border-top: 30px solid var(--bs-primary) !important;
+    background: rgba(239, 239, 241, 0.8);
+}
+
+.team-content::before {
+    height: 200px;
+    display: block;
+    content: "";
+    position: relative;
+    top: -101px;
+    background: var(--bs-primary);
+    clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
+    padding: 60px;
+    opacity: 1;
+}
+
+.team-img-icon {
+    position: relative;
+    margin-top: -200px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.team-img {
+    border: 15px solid var(--bs-white);
+}
+
+.team-img img {
+    height: 250px;
+    transition: .5s;
+
+}
+
+.team-item:hover h4 {
+    color: var(--bs-primary);
+    transition: .5s;
+}
+
+.team-item:hover .team-img img {
+    transform: scale(1.05);
+    border: 10px solid var(--bs-primary);
+}
+
+.team-carousel .owl-stage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.team-carousel .owl-nav {
+    position: absolute;
+    top: -100px;
+    right: 50px;
+    display: flex;
+}
+
+.team-carousel .owl-nav .owl-prev,
+.team-carousel .owl-nav .owl-next {
+    width: 56px;
+    height: 56px;
+    border-radius: 56px;
+    margin-left: 15px;
+    background: var(--bs-primary);
+    color: var(--bs-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.team-carousel .owl-nav .owl-prev:hover,
+.team-carousel .owl-nav .owl-next:hover {
+    background: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+@media (max-width: 992px) {
+    .team-carousel {
+        margin-top: 3rem;
+    }
+
+    .team-carousel .owl-nav {
+        top: -85px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        margin-left: -15px;
+    }
+}
+
+/*** Team End ***/
+
+/* Services */
+/*** Solutions ***/
+.solution-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.solution-item:hover {
+    background: var(--primary);
+}
+
+.solution-item * {
+    transition: .5s;
+}
+
+.solution-item:hover * {
+    color: var(--light) !important;
+}
+
+
+/*** Career Page ***/
+.career-img-fluid {
+    max-width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.company-culture-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Alpha Duct System */
+
+.box-shadow-card {
+    box-shadow: 0 0 12px rgb(201 194 194);
+}
+
+input.form-control.border-0,
+textarea.form-control.border-0 {
+    background-color: #e9ecef !important;
+}
+
+/* Prestigiouis Projects*/
+
+.team-card {
+    background-color: #6ec1e4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(119, 118, 118, 0.2);
+}
+
+.product-card {
+    height: 300px;
+    object-fit: fill;
+}
+
+@media (max-width: 767.98px) {
+    .product-card {
+        height: 200px;
+    }
+
+    .services-card-title {
+        font-size: 16px;
+    }
+}

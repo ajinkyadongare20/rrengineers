@@ -15,205 +15,282 @@
 get_header();
 ?>
 
-	<!-- Carousel Start -->
-    <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-1.jpg" alt="RR Engineers Project Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <i class="fa fa-industry fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Pre-Insulated Ducting Solutions</h1>
-                            <a href="#services" class="btn btn-primary py-md-3 px-md-5 mt-2">Explore Our Services</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 2 -->
-                <div class="carousel-item">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-2.jpg" alt="PAL Ducting System">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <i class="fa fa-cogs fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Authorized Partner of PAL Systems</h1>
-                            <a href="#products" class="btn btn-primary py-md-3 px-md-5 mt-2">View Products</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Slide 3 -->
-                <div class="carousel-item">
-                    <img class="w-100" src="<?php bloginfo('template_directory'); ?>/img/carousel-2.jpg" alt="Engineering Team at Work">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <i class="fa fa-users-cog fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Expert Team for Global Project Execution</h1>
-                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More About Us</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+	<!-- Page Header Start -->
+    <div class="container-fluid page-header">
+        <h1 class="display-3 text-uppercase text-white mb-3">About</h1>
+        <div class="d-inline-flex text-white">
+            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
+            <h6 class="text-white m-0 px-3">/</h6>
+            <h6 class="text-uppercase text-white m-0">About</h6>
         </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Page Header Start -->
+    
 
-
-     <!-- Overview Section -->
+    <!-- Start Overview Section -->
     <div class="container-fluid py-5">
         <div class="row">
             <div class="col-lg-10 mx-auto">
                 <h2 class="section-title">Company Overview</h2>
                 <div class="card overview-card animate-on-scroll">
                     <div class="card-header">
-                        <h3 class="mb-0"><i class="fas fa-building me-2"></i>About VCS ThermalAlliance</h3>
+                        <h3 class="mb-0"><i class="fas fa-building me-2"></i>About RR Engineers & Contractors</h3>
                     </div>
                     <div class="card-body">
-                        <p>VCS ThermalAlliance Private Limited is a dedicated MEPF contracting company founded by three experienced professionals—Mr. Subodh Murkewar, Mr. Virendra Borade, and Mr. Chetan Thakur. The company specializes in providing end-to-end solutions in Mechanical, Electrical, Plumbing, and Firefighting (MEPF) systems, with a strong focus on quality, compliance, and timely execution.</p>
+                        <p>Established in 2011, RR Engineers & Contractors is a trusted name in precision sheet metal duct fabrication and industrial air management solutions. Based in Pune, we specialize in PAL (Pre-Insulated Aluminium) ducting, spiral ducting, CNC machine operations, and custom fabrication services.</p>
                         
-                        <p>With a deep understanding of engineering principles and field execution, VCS ThermalAlliance delivers integrated, high-efficiency solutions across various sectors, including HVAC systems, cleanroom environments, hospitals, commercial buildings, and specialized operating theaters.</p>
+                        <p>We are known for our high-quality products that offer long service life, corrosion and abrasion resistance, and dimensional accuracy. Our facility is equipped with advanced CNC machines and automated lines, enabling fast, consistent, and scalable production.</p>
                         
-                        <p>Backed by the synergy of its founding team and a shared commitment to excellence, the company operates under the guiding vision encapsulated in its tagline:</p>
+                        <p>Our offerings support a wide range of industries including pharmaceuticals, commercial buildings, hospitals, cleanrooms, IT parks, and international infrastructure projects. Our clients trust us for reliable performance, adherence to timelines, and safety compliance.</p>
                         
+                        <p>Our skilled team ensures end-to-end project execution — from design to installation — in close coordination with clients and consultants. We also provide site supervision and workforce training, following strict safety protocols. Notably, we received recognition from Blue Star India Ltd. for safe execution at Novotel Hotel Project in Pune.</p>
+
+                        <p>We operate across six verticals: Trading, Manufacturing, Services, Fabrication, Installation, and Training — enabling integrated solutions under one roof.</p>
+
                         <div class="tagline animate-on-scroll">
-                            <i class="fas fa-quote-left me-2"></i>Beyond Engineering. Into Excellence.<i class="fas fa-quote-right ms-2"></i>
+                            <i class="fas fa-quote-left me-2"></i>Delivering Excellence in Every Duct.<i class="fas fa-quote-right ms-2"></i>
                         </div>
                         <div class="tagline animate-on-scroll">
-                            <i class="fas fa-quote-left me-2"></i>The Best Reliable Industry Solution.<i class="fas fa-quote-right ms-2"></i>
+                            <i class="fas fa-quote-left me-2"></i>Precision Fabrication. Trusted Execution.<i class="fas fa-quote-right ms-2"></i>
                         </div>
                         <div class="tagline animate-on-scroll">
-                            <i class="fas fa-quote-left me-2"></i>End-to-End MEPF Expertise, Delivered.<i class="fas fa-quote-right ms-2"></i>
+                            <i class="fas fa-quote-left me-2"></i>Your Partner in Clean Air & Smart Fabrication.<i class="fas fa-quote-right ms-2"></i>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End Overview Section -->
 
-    <!-- History Section -->
+
+    <!-- Start History Section -->
     <div class="container-fluid pb-5">
         <div class="row">
             <div class="col-lg-10 mx-auto">
-                <!-- <h2 class="section-title">Our History</h2> -->
                 <div class="card history-card animate-on-scroll">
                     <div class="card-header">
-                        <h3 class="mb-0"><i class="fas fa-history me-2"></i>The VCS ThermalAlliance Journey</h3>
+                        <h3 class="mb-0"><i class="fas fa-history me-2"></i>The RR Engineers & Contractors Journey</h3>
                     </div>
                     <div class="card-body">
-                        <p>VCS ThermalAlliance Private Limited was born from a powerful amalgamation of expertise, experience, and entrepreneurial vision. The company was established with a shared vision by three seasoned professionals— Mr. Subodh Murkewar, Mr. Virendra Borade, and Mr. Chetan Thakur—to redefine excellence in the field of MEPF (Mechanical, Electrical, Plumbing, and Firefighting) contracting services.</p>
-                        
-                        <p>Together, they established VCS ThermalAlliance to unify their strengths in HVAC, cleanroom systems, MEPF contracting, and automation. The name ThermalAlliance reflects their thermal engineering focus and collaborative spirit, with "VCS" representing the initials of the three founders.</p>
-                        
-                        <p>Built on the vision <strong>"Beyond Engineering. Into Excellence."</strong>, the company is committed to delivering smart, compliant, and integrated MEPF solutions across diverse sectors.</p>
+                        <p>Founded with a mission to bring precision and professionalism to the ducting and fabrication industry, we began as a small-scale unit and evolved into a full-service MEP solutions partner executing projects across India and internationally.</p>
+
+                        <p>Over the years, our commitment to client satisfaction, investment in technology, and adherence to global standards have helped us deliver complex and high-performance installations. Our in-house team of engineers and project managers ensures timely completion, safety, and quality assurance at every step.</p>
+
+                        <p>Our breakthrough came with our successful execution of commercial HVAC and ducting projects for large pharmaceutical and cleanroom clients — a domain that demands extreme precision, air control, and regulatory compliance. That marked our shift from being a regional contractor to a national and global partner in engineering solutions.</p>
+
+                        <p>In 2015, we made a significant leap by incorporating CNC machinery into our fabrication line, boosting not only productivity but also dimensional accuracy and finish. This positioned us as one of the few contractors in Western India with in-house automated ducting capabilities.</p>
+
+                        <p>By 2018, we diversified into international project support by deputing engineers for supervision, execution, and on-site workforce training — a value-added service that clients found deeply beneficial for maintaining quality standards overseas.</p>
+
+                        <p>We take pride in our achievement of being awarded by Blue Star India Ltd. for safe execution practices in their Novotel Hotel project in Pune — a testament to our unwavering focus on safety and compliance.</p>
+
+                        <p>Even during challenging times such as the global pandemic, our team stood resilient — fulfilling critical infrastructure assignments in hospitals and pharma units, with zero compromise on timelines or safety.</p>
+
+                        <p>RR Engineers & Contractors is not just a fabrication partner — we are enablers of clean, safe, and sustainable environments. Our long-term vision is to continuously innovate in MEPF (Mechanical, Electrical, Plumbing, and Fire) systems, and expand our presence across sectors like data centers, cleanrooms, green buildings, and modular infrastructure.</p>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- End History Section -->
+
+  
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/service-5.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Welcome to <span class="text-primary">RR Engineers & Contractors</span></h1>
+                    <p class="mb-4">Established in 2011, RR Engineers & Contractors is a trusted name in precision ducting systems, eco panels, spiral ducting, CNC machinery, and fabrication accessories. We are committed to quality, safety, and timely delivery across industrial and commercial projects nationwide.</p>
+                    <p class="mb-4">With a Pune-based facility equipped with advanced CNC machines and a skilled workforce, we serve sectors like pharmaceuticals, IT, cleanrooms, and infrastructure. Our solutions meet global standards and are backed by experienced engineers, on-site training, and adherence to safety norms.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Pre-Insulated Duct Systems</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Eco Panels & Spiral Ducting</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Advanced CNC Fabrication</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>On-site Product Training</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Turnkey Project Execution</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Certified Safety Practices</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="#contact">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- `About End -->
+
+
+    <!-- Our Mission, Vision, Values Start -->
+    <div class="container-xxl bg-light py-5">
+        <div class="container py-5">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-6 mb-5">Our Mission, Vision & Core Values</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Mission -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Mission</small>
+                            </div>
+                            <div class="text-start">
+                                <h5 class="mb-3">Our Purpose</h5>
+                                <p>Our mission is to deliver innovative and reliable ducting, HVAC, and fabrication solutions tailored to industrial needs. We strive to maintain the highest standards in safety, quality, and client satisfaction while continuously improving through advanced technologies and skilled workforce. Every project we undertake reflects our commitment to excellence, environmental responsibility.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Vision -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Vision</small>
+                            </div>
+                            <div class="text-start">
+                                <h5 class="mb-3">Looking Ahead</h5>
+                                <p>Our vision is to become a global leader in turnkey MEPF and air management systems by setting new benchmarks in project delivery, innovation, and sustainability. We aim to expand our footprint across diverse industrial sectors, driving smart infrastructure development with energy-efficient and future-ready solutions that exceed expectations and foster long-term client partnerships.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Core Values -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                        <div class="text-center p-4 pt-0">
+                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                <small>Core Values</small>
+                            </div>
+                            <div class="text-start">
+                                <h5 class="mb-3">What We Believe</h5>
+                                <p>At the core of our operations are integrity, safety, innovation, and customer focus. We believe in transparent communication, teamwork, continuous learning, and accountability. These values guide every project we execute and every relationship we build, allowing us to deliver not just solutions—but trust, quality, and long-lasting impact in the industries we serve.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Mission, Vision, Values End -->
 
     
-
-    <!-- Services Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-            <h1 class="display-5 text-uppercase mb-4">Our <span class="text-primary">Specialized</span> Services</h1>
-            <p>We offer complete turnkey solutions in pre-insulated ducting, HVAC systems, under-roof insulation, CNC fabrication, ventilation, and accessories supply.</p>
-        </div>
-        <div class="row g-5">
-
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-1.jpg" alt="Pre Insulated Ducting">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-wind text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Pre-Insulated Ducting</h4>
-                        <p>Authorized installation of PAL SYSTEM pre-insulated ducts offering low leakage, high strength, and clean air performance.</p>
-                    </div>
-                </div>
+    <!-- Team Start -->
+    <div class="container-fluid py-5 mb-5 team">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h1>Meet our expert Team</h1>
             </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-2.jpg" alt="HVAC Ventilation">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-fan text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">HVAC & Ventilation</h4>
-                        <p>Execution of complete HVAC projects including air handling systems, chimneys, fresh air supply, and ventilation systems.</p>
+            <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+
+                <!-- Team Member 1 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Mr. Rajesh Patil</h4>
+                                <p class="m-0">Founder & Managing Director</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-3.jpg" alt="CNC Fabrication">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-cogs text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">CNC Duct Fabrication</h4>
-                        <p>Advanced CNC machining and fabrication tools for accurate, efficient duct panel manufacturing and accessory cutting.</p>
+                <!-- Team Member 2 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Ms. Sneha Kulkarni</h4>
+                                <p class="m-0">Operations Head</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-4.jpg" alt="Insulation Services">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-temperature-low text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Under Roof Insulation</h4>
-                        <p>Efficient thermal insulation services to reduce heat gain and maintain energy efficiency for industrial and commercial spaces.</p>
+                <!-- Team Member 3 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Mr. Anil Deshmukh</h4>
+                                <p class="m-0">Head of Fabrication</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-5.jpg" alt="Testing & Commissioning">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-vial text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Duct Testing</h4>
-                        <p>Smoke, light, and pressure testing for leakage checks and performance assurance of installed ducting systems.</p>
+                <!-- Team Member 4 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Mr. Kunal Joshi</h4>
+                                <p class="m-0">Lead Project Engineer</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/service-6.jpg" alt="HVAC Spares & Accessories">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-toolbox text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">HVAC Accessories</h4>
-                        <p>Supply of ducting tools, PAL accessories, adhesives, tapes, grilles, diffusers, dampers, and all HVAC-related parts.</p>
-                    </div>
-                </div>
             </div>
-
         </div>
     </div>
-    <!-- Services End -->
+    <!-- Team End -->
 
 
     <!-- Appointment Start -->
@@ -224,13 +301,15 @@ get_header();
                     <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
                 </div>
                 <p class="mb-5">
-                    Looking for expert solutions in Pre-Insulated Ducting, HVAC systems, CNC Fabrication, or Ventilation Projects? 
-                    Fill out the form and our team will get in touch to discuss your project and offer the best service and pricing options.
+                    Looking for expert solutions in Pre-Insulated Ducting, HVAC systems, CNC Fabrication, or Ventilation
+                    Projects?
+                    Fill out the form and our team will get in touch to discuss your project and offer the best service and
+                    pricing options.
                 </p>
-                <a class="btn btn-primary py-3 px-5" href="#contact">Contact Us</a>
+                <a class="btn btn-primary py-3 px-5" href="<?php echo site_url('/contact'); ?>">Contact Us</a>
             </div>
             <div class="col-lg-8">
-                <div class="bg-light text-center p-5">
+                <div class="bg-light text-center p-1 px-lg-5">
                     <form>
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
@@ -243,10 +322,19 @@ get_header();
                                 <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Preferred Time/Date" style="height: 55px;">
+                                <!-- Dropdown field added here -->
+                                <select class="form-select border-0" style="height: 55px;">
+                                    <option selected disabled>Select Service Type</option>
+                                    <option value="ducting">Pre-Insulated Ducting</option>
+                                    <option value="hvac">HVAC System</option>
+                                    <option value="cnc">CNC Fabrication</option>
+                                    <option value="ventilation">Ventilation Project</option>
+                                    <option value="others">Others</option>
+                                </select>
                             </div>
                             <div class="col-12">
-                                <textarea class="form-control border-0" rows="5" placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
+                                <textarea class="form-control border-0" rows="5"
+                                    placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
                             </div>
                             <div class="col-12">
                                 <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
@@ -260,334 +348,6 @@ get_header();
     <!-- Appointment End -->
 
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Some Of Our <span class="text-primary">Prestigious</span> Projects</h1>
-        </div>
-        <div class="row gx-5">
-            <div class="col-12 text-center">
-                <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
-                    <ul class="list-inline mb-0" id="portfolio-flters">
-                        <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/portfolio-1.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">All</h6>
-                            </div>
-                        </li>
-                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/portfolio-2.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">HVAC</h6>
-                            </div>
-                        </li>
-                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/portfolio-3.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">Fabrication</h6>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="row g-5 portfolio-container">
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-1.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">HVAC Installation – Novotel Hotel</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pune, Maharashtra</span>
-                    </a>
-                    <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-1.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-2.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">PAL Spiral Ducting Project</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Nashik, India</span>
-                    </a>
-                    <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-2.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-3.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">CNC Duct Cutting Facility</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pune Industrial Area</span>
-                    </a>
-                    <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-3.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-4.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">Commercial Tower Insulation</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Ahmedabad, Gujarat</span>
-                    </a>
-                    <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-4.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-5.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">Under Roof PAL Panel Install</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Hyderabad, India</span>
-                    </a>
-                    <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-5.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-6.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">Evaporative Cooling System</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Chakan MIDC, Pune</span>
-                    </a>
-                    <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-6.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Meet Our <span class="text-primary">Skilled & Committed</span> Team</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Rajesh Kadam</h4>
-                            <span>Founder & Project Head</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Sonal Patil</h4>
-                            <span>Lead Architect</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Amar Joshi</h4>
-                            <span>Site Engineer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-4.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Nikita Deshmukh</h4>
-                            <span>Structural Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">What Our <span class="text-primary">Happy Clients</span> Say!!!</h1>
-        </div>
-        <div class="row gx-0 align-items-center">
-            <div class="col-xl-4 col-lg-5 d-none d-lg-block">
-                <img class="img-fluid w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/testimonial.jpg">
-            </div>
-            <div class="col-xl-8 col-lg-7 col-md-12">
-                <div class="testimonial bg-light">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="row gx-4 align-items-center">
-                            <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="<?php bloginfo('template_directory'); ?>/img/testimonial-1.jpg" alt="">
-                            </div>
-                            <div class="col-xl-8 col-lg-7 col-md-7">
-                                <h4 class="text-uppercase mb-0">Suresh Patil</h4>
-                                <p>Real Estate Developer</p>
-                                <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i>RR Engineers exceeded our expectations with timely project delivery and quality workmanship. Their dedication and professionalism are commendable.</p>
-                            </div>
-                        </div>
-                        <div class="row gx-4 align-items-center">
-                            <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="<?php bloginfo('template_directory'); ?>/img/testimonial-2.jpg" alt="">
-                            </div>
-                            <div class="col-xl-8 col-lg-7 col-md-7">
-                                <h4 class="text-uppercase mb-0">Meena Kulkarni</h4>
-                                <p>Architect</p>
-                                <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i>The team brings innovative solutions and efficient execution to every project. Working with RR Engineers has always been a smooth and successful experience.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Blog Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Latest <span class="text-primary">Insights</span> From Our Projects & Expertise</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="bg-light">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/blog-1.jpg" alt="">
-                    <div class="p-4">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="<?php bloginfo('template_directory'); ?>/img/user.jpg" width="35" height="35" alt="">
-                                <span>Admin</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>04 Jul, 2025</span>
-                            </div>
-                        </div>
-                        <h4 class="text-uppercase mb-3">How PAL Ducting is Changing Industrial HVAC Efficiency</h4>
-                        <a class="text-uppercase fw-bold" href="#">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="bg-light">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/blog-2.jpg" alt="">
-                    <div class="p-4">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="<?php bloginfo('template_directory'); ?>/img/user.jpg" width="35" height="35" alt="">
-                                <span>Admin</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>27 Jun, 2025</span>
-                            </div>
-                        </div>
-                        <h4 class="text-uppercase mb-3">Top 5 Challenges in Duct Fabrication — And How We Solve Them</h4>
-                        <a class="text-uppercase fw-bold" href="#">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="bg-light">
-                    <img class="img-fluid" src="<?php bloginfo('template_directory'); ?>/img/blog-3.jpg" alt="">
-                    <div class="p-4">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="<?php bloginfo('template_directory'); ?>/img/user.jpg" width="35" height="35" alt="">
-                                <span>Admin</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>18 Jun, 2025</span>
-                            </div>
-                        </div>
-                        <h4 class="text-uppercase mb-3">Smart Construction: Integrating Eco Panels for Sustainable Buildings</h4>
-                        <a class="text-uppercase fw-bold" href="#">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
 
 <?php
 // get_sidebar();

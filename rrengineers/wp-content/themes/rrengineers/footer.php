@@ -17,7 +17,7 @@
             <div class="col-lg-6 pe-lg-5">
                 <a href="index.html" class="navbar-brand">
                     <h1 class="m-0 display-4 text-uppercase text-white">
-                        <i class="bi bi-building text-primary me-2"></i>RR Engineers
+                        <i class="bi bi-building text-primary me-2"></i><span class="display-6">RR Engineers</span>
                     </h1>
                 </a>
                 <p>Established in the year 2011, RR Engineers & Contractors is a leading firm offering Pre-Insulated Ducting Systems, Eco Panels, Spiral Ducting, CNC Machines, Fabrication Tools, and Ducting Accessories. Known for quality, durability, and precision, our products serve the needs of commercial, industrial, and residential projects.</p>
@@ -88,6 +88,7 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/lib/wow/wow.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/lib/easing/easing.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/lib/waypoints/waypoints.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/lib/owlcarousel/owl.carousel.min.js"></script>
