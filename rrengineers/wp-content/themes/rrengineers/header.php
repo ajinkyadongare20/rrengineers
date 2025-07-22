@@ -22,6 +22,11 @@
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
+    <link rel="icon" href="<?php bloginfo('template_directory'); ?>/img/index/logo-rrengineer.jpg" type="image/x-icon">
+
+    <!-- Font Stylesheet Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -41,6 +46,8 @@
 
     <!-- Template Stylesheet -->
     <link href="<?php bloginfo('template_directory'); ?>/css/style.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_directory'); ?>/css/custom.css" rel="stylesheet">
+
 </head>
 
 
@@ -82,15 +89,36 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm px-5 pe-lg-0">
+    <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm py-2 px-3 px-lg-3">
         <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand">
-                <h1 class="m-0 display-4 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>RREngineers</h1>
+            <a href="index.php" class="navbar-brand">
+                <h1 class="m-0 display-6 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>RREngineers</h1>
             </a>
+            
+            <!-- <a href="index.php" class="navbar-brand">
+                <img src="<?php bloginfo('template_directory'); ?>/img/rrengineers_logo.png" alt="RR Engineers Logo" style="height: 40px;">
+            </a> -->
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
+                 <?php
+                        wp_nav_menu(array(
+                            'theme_location'    => 'menu-1',
+                            'container'         => false,
+                            'container_class'   => '',
+                            'menu_class'        => 'navbar-nav ms-auto',
+                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                            'depth'             => 3,
+                            'walker'            => new wp_bootstrap_navwalker()
+                        ));
+                    ?>
+                <a href="<?php echo site_url('/quote'); ?>" class="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            </div>
+
+
+             <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
@@ -108,7 +136,7 @@
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                     <a href="" class="nav-item nav-link bg-primary text-white px-5 ms-3 d-none d-lg-block">Get A Quote <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
+            </div> -->
         </nav>
     </div>
     <!-- Navbar End -->

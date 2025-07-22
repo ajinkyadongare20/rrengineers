@@ -26,7 +26,7 @@ get_header();
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <i class="fa fa-industry fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Pre-Insulated Ducting Solutions</h1>
+                            <h1 class="display-5 text-uppercase text-white mb-md-4">Pre-Insulated Ducting Solutions</h1>
                             <a href="#services" class="btn btn-primary py-md-3 px-md-5 mt-2">Explore Our Services</a>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ get_header();
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <i class="fa fa-cogs fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Authorized Partner of PAL Systems</h1>
+                            <h1 class="display-5 text-uppercase text-white mb-md-4">Authorized Partner of PAL Systems</h1>
                             <a href="#products" class="btn btn-primary py-md-3 px-md-5 mt-2">View Products</a>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ get_header();
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <i class="fa fa-users-cog fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Expert Team for Global Project Execution</h1>
+                            <h1 class="display-5 text-uppercase text-white mb-md-4">Expert Team for Global Project Execution</h1>
                             <a href="#about" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More About Us</a>
                         </div>
                     </div>
@@ -72,10 +72,10 @@ get_header();
 
 
     <!-- About Start -->
-    <div class="container-fluid py-6 px-5">
+    <div class="container-fluid py-5 px-4 px-lg-5">
         <div class="row g-5">
             <div class="col-lg-7">
-                <h1 class="display-5 text-uppercase mb-4">Welcome to <span class="text-primary">RR Engineers & Contractors</span></h1>
+                <h1 class="display-6 text-uppercase mb-4">Welcome to <span class="text-primary">RR Engineers & Contractors</span></h1>
                 <h4 class="text-uppercase mb-3 text-body">Pioneers in Pre-Insulated Ducting & HVAC Fabrication Solutions</h4>
                 <p>Established in 2011, RR Engineers & Contractors is a trusted name in the field of HVAC ducting systems. We are an authorized partner of PAL SYSTEM INDIA PVT LTD, offering world-class Pre-Insulated Ducting Systems, Eco Panels, Spiral Ducting, CNC Machines, and a wide range of Fabrication Tools and Accessories.</p>
 
@@ -108,9 +108,9 @@ get_header();
     
 
     <!-- Services Start -->
-    <div class="container-fluid bg-light py-6 px-5">
+    <div class="container-fluid bg-light py-6 px-3 px-lg-5">
         <div class="text-center mx-auto mb-5" style="max-width: 700px;">
-            <h1 class="display-5 text-uppercase mb-4">Our <span class="text-primary">Specialized</span> Services</h1>
+            <h1 class="display-6 text-uppercase mb-4">Our <span class="text-primary">Specialized</span> Services</h1>
             <p>We offer complete turnkey solutions in pre-insulated ducting, HVAC systems, under-roof insulation, CNC fabrication, ventilation, and accessories supply.</p>
         </div>
         <div class="row g-5">
@@ -198,54 +198,10 @@ get_header();
     <!-- Services End -->
 
 
-    <!-- Appointment Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="row gx-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="mb-4">
-                    <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
-                </div>
-                <p class="mb-5">
-                    Looking for expert solutions in Pre-Insulated Ducting, HVAC systems, CNC Fabrication, or Ventilation Projects? 
-                    Fill out the form and our team will get in touch to discuss your project and offer the best service and pricing options.
-                </p>
-                <a class="btn btn-primary py-3 px-5" href="#contact">Contact Us</a>
-            </div>
-            <div class="col-lg-8">
-                <div class="bg-light text-center p-5">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Preferred Time/Date" style="height: 55px;">
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" rows="5" placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Appointment End -->
-
-
     <!-- Portfolio Start -->
-    <div class="container-fluid bg-light py-6 px-5">
+    <div class="container-fluid bg-light pt-4 pb-6 px-3 px-lg-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Some Of Our <span class="text-primary">Prestigious</span> Projects</h1>
+            <h1 class="display-6 text-uppercase mb-4">Some Of Our <span class="text-primary">Prestigious</span> Projects</h1>
         </div>
         <div class="row gx-5">
             <div class="col-12 text-center">
@@ -279,7 +235,7 @@ get_header();
                 <div class="position-relative portfolio-box">
                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-1.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">HVAC Installation – Novotel Hotel</p>
+                        <p class="h4">HVAC Installation – Novotel Hotel</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pune, Maharashtra</span>
                     </a>
                     <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-1.jpg" data-lightbox="portfolio">
@@ -292,7 +248,7 @@ get_header();
                 <div class="position-relative portfolio-box">
                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-2.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">PAL Spiral Ducting Project</p>
+                        <p class="h4">PAL Spiral Ducting Project</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Nashik, India</span>
                     </a>
                     <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-2.jpg" data-lightbox="portfolio">
@@ -305,7 +261,7 @@ get_header();
                 <div class="position-relative portfolio-box">
                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-3.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">CNC Duct Cutting Facility</p>
+                        <p class="h4">CNC Duct Cutting Facility</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pune Industrial Area</span>
                     </a>
                     <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-3.jpg" data-lightbox="portfolio">
@@ -318,7 +274,7 @@ get_header();
                 <div class="position-relative portfolio-box">
                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-4.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">Commercial Tower Insulation</p>
+                        <p class="h4">Commercial Tower Insulation</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Ahmedabad, Gujarat</span>
                     </a>
                     <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-4.jpg" data-lightbox="portfolio">
@@ -331,7 +287,7 @@ get_header();
                 <div class="position-relative portfolio-box">
                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-5.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">Under Roof PAL Panel Install</p>
+                        <p class="h4">Under Roof PAL Panel Install</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Hyderabad, India</span>
                     </a>
                     <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-5.jpg" data-lightbox="portfolio">
@@ -344,7 +300,7 @@ get_header();
                 <div class="position-relative portfolio-box">
                     <img class="img-fluid w-100" src="<?php bloginfo('template_directory'); ?>/img/portfolio-6.jpg" alt="">
                     <a class="portfolio-title shadow-sm" href="#">
-                        <p class="h4 text-uppercase">Evaporative Cooling System</p>
+                        <p class="h4">Evaporative Cooling System</p>
                         <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>Chakan MIDC, Pune</span>
                     </a>
                     <a class="portfolio-btn" href="<?php bloginfo('template_directory'); ?>/img/portfolio-6.jpg" data-lightbox="portfolio">
@@ -358,109 +314,97 @@ get_header();
 
 
     <!-- Team Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Meet Our <span class="text-primary">Skilled & Committed</span> Team</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Rajesh Kadam</h4>
-                            <span>Founder & Project Head</span>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid py-5 mb-5 team">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h1 class="display-6 text-uppercase mb-4">Meet Our <span class="text-primary">Skilled & Committed</span> Team</h1>
             </div>
 
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Sonal Patil</h4>
-                            <span>Lead Architect</span>
+            <div class="owl-carousel team-carousel wow fadeIn" data-wow-delay=".5s">
+                <!-- Team Member 1 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Mr. Rajesh Patil</h4>
+                                <p class="m-0">Founder & Managing Director</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Amar Joshi</h4>
-                            <span>Site Engineer</span>
+                <!-- Team Member 2 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Ms. Sneha Kulkarni</h4>
+                                <p class="m-0">Operations Head</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="<?php bloginfo('template_directory'); ?>/img/team-4.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Nikita Deshmukh</h4>
-                            <span>Structural Designer</span>
+                <!-- Team Member 3 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Mr. Anil Deshmukh</h4>
+                                <p class="m-0">Head of Fabrication</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Team Member 4 -->
+                <div class="rounded team-item">
+                    <div class="team-content">
+                        <div class="team-img-icon">
+                            <div class="team-img rounded-circle">
+                                <img src="<?php bloginfo('template_directory'); ?>/img/team-4.jpg" class="img-fluid w-100 rounded-circle" alt="Team Member">
+                            </div>
+                            <div class="team-name text-center py-3">
+                                <h4>Mr. Kunal Joshi</h4>
+                                <p class="m-0">Lead Project Engineer</p>
+                            </div>
+                            <div class="team-icon d-flex justify-content-center pb-4">
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary text-white rounded-circle m-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -468,9 +412,9 @@ get_header();
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-6 px-5">
+    <div class="container-fluid bg-light py-6 px-3 px-lg-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">What Our <span class="text-primary">Happy Clients</span> Say!!!</h1>
+            <h1 class="display-6 text-uppercase mb-4">What Our <span class="text-primary">Happy Clients</span> Say!!!</h1>
         </div>
         <div class="row gx-0 align-items-center">
             <div class="col-xl-4 col-lg-5 d-none d-lg-block">
@@ -508,9 +452,9 @@ get_header();
 
 
     <!-- Blog Start -->
-    <div class="container-fluid py-6 px-5">
+    <div class="container-fluid py-6 px-3 px-lg-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Latest <span class="text-primary">Insights</span> From Our Projects & Expertise</h1>
+            <h1 class="display-6 text-uppercase mb-4">Latest <span class="text-primary">Insights</span> From Our Projects</h1>
         </div>
         <div class="row g-5">
             <div class="col-lg-4 col-md-6">
@@ -526,7 +470,7 @@ get_header();
                                 <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>04 Jul, 2025</span>
                             </div>
                         </div>
-                        <h4 class="text-uppercase mb-3">How PAL Ducting is Changing Industrial HVAC Efficiency</h4>
+                        <h4 class="mb-3">How PAL Ducting is Changing Industrial HVAC Efficiency</h4>
                         <a class="text-uppercase fw-bold" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -544,7 +488,7 @@ get_header();
                                 <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>27 Jun, 2025</span>
                             </div>
                         </div>
-                        <h4 class="text-uppercase mb-3">Top 5 Challenges in Duct Fabrication — And How We Solve Them</h4>
+                        <h4 class="mb-3">Top 5 Challenges in Duct Fabrication — And How We Solve Them</h4>
                         <a class="text-uppercase fw-bold" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -562,7 +506,7 @@ get_header();
                                 <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>18 Jun, 2025</span>
                             </div>
                         </div>
-                        <h4 class="text-uppercase mb-3">Smart Construction: Integrating Eco Panels for Sustainable Buildings</h4>
+                        <h4 class="mb-3">Smart Construction: Integrating Eco Panels for Sustainable Buildings</h4>
                         <a class="text-uppercase fw-bold" href="#">Read More <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
@@ -570,6 +514,63 @@ get_header();
         </div>
     </div>
     <!-- Blog End -->
+
+
+    <!-- Appointment Start -->
+    <div class="container-fluid py-6 px-5">
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <div class="mb-4">
+                    <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
+                </div>
+                <p class="mb-5">
+                    Looking for expert solutions in Pre-Insulated Ducting, HVAC systems, CNC Fabrication, or Ventilation
+                    Projects?
+                    Fill out the form and our team will get in touch to discuss your project and offer the best service and
+                    pricing options.
+                </p>
+                <a class="btn btn-primary py-3 px-5" href="<?php echo site_url('/contact'); ?>">Contact Us</a>
+            </div>
+            <div class="col-lg-8">
+                <div class="bg-light text-center p-1 px-lg-5">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <!-- Dropdown field added here -->
+                                <select class="form-select border-0" style="height: 55px;">
+                                    <option selected disabled>Select Service Type</option>
+                                    <option value="ducting">Pre-Insulated Ducting</option>
+                                    <option value="hvac">HVAC System</option>
+                                    <option value="cnc">CNC Fabrication</option>
+                                    <option value="ventilation">Ventilation Project</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control border-0" rows="5"
+                                    placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
+
 
 <?php
 // get_sidebar();
