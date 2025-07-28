@@ -26,6 +26,13 @@
     $('.time').datetimepicker({
         format: 'LT'
     });
+
+
+    // Facts counter
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 2000
+    });
     
     
     // Back to top button
@@ -55,42 +62,37 @@
     });
 
 
-        // Team carousel
-    $(".team-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1000,
+   // testimonial carousel
+    $(".testimonial-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1500,
         center: false,
-        dots: false,
+        dots: true,
         loop: true,
-        margin: 50,
-        nav : true,
+        margin: 25,
+        nav : false,
         navText : [
-            '<i class="bi bi-arrow-left"></i>',
-            '<i class="bi bi-arrow-right"></i>'
+            '<i class="fa fa-angle-right"></i>',
+            '<i class="fa fa-angle-left"></i>'
         ],
         responsiveClass: true,
         responsive: {
             0:{
                 items:1
             },
+            576:{
+                items:1
+            },
             768:{
-                items:2
+                items:1
             },
             992:{
-                items:3
+                items:1
+            },
+            1200:{
+                items:2
             }
         }
-    });
-
-
-
-    // Testimonials carousel
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1000,
-        items: 1,
-        dots: false,
-        loop: true,
     });
     
 })(jQuery);
@@ -130,10 +132,3 @@ document.addEventListener('wpcf7mailsent', function (event) {
   // Replace this with your custom toast code
   alert('✅ Message sent!');
 }, false);
-
-
-
-
-
-
-

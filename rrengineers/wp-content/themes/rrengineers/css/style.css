@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #6ec1e4 !important;
+    --primary: #FD5D14 !important;
     --secondary: #aee2ff;
     --light: #F4F6F8;
     --dark: #040F28;
@@ -144,7 +144,7 @@ h6,
     margin-right: 30px;
     padding: 20px 0;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     outline: none;
 }
@@ -277,7 +277,7 @@ h6,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../img/carousel/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -308,7 +308,7 @@ h6,
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 120px;
+    height: 160px;
     padding: 0 30px;
     right: 30px;
     left: 30px;
@@ -368,7 +368,6 @@ h6,
 
 @media (min-width: 992px) {
 
-    .testimonial,
     .contact-form {
         margin-left: -90px;
     }
@@ -397,10 +396,9 @@ h6,
     transform: skew(40deg);
 }
 
-
 /*** About Page ***/
 .section-title {
-    color: #6ec1e4;
+    color: #FD5D14;
     position: relative;
     padding-bottom: 15px;
     margin-bottom: 30px;
@@ -414,7 +412,7 @@ h6,
     left: 0;
     width: 60px;
     height: 3px;
-    background-color: #6ec1e4;
+    background-color: #FD5D14;
 }
 
 .overview-card,
@@ -432,7 +430,7 @@ h6,
 }
 
 .card-header {
-    background-color: #6ec1e4;
+    background-color: #FD5D14;
     color: white;
     padding: 15px 20px;
     border-bottom: none;
@@ -447,10 +445,10 @@ h6,
 .tagline {
     font-style: italic;
     font-weight: 500;
-    color: #6ec1e4;
+    color: #FD5D14;
     margin: 20px 0;
     padding: 10px 15px;
-    border-left: 4px solid #6ec1e4;
+    border-left: 4px solid #FD5D14;
     background-color: rgba(255, 107, 0, 0.05);
 }
 
@@ -467,102 +465,79 @@ h6,
     }
 }
 
+.about-card-img {
+    width: 70%;
+    height: 400px;
+    padding: 10px 25px 15px 25px;
+    border: 15px solid #FD5D14;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-card-img {
+        width: 100%;
+    }
+}
 
 
 /*** Team Start ***/
-
-.team-item {
-    border-top: 30px solid var(--bs-primary) !important;
-    background: rgba(239, 239, 241, 0.8);
+.team .team-item .team-img {
+    position: relative;
+    overflow: hidden;
 }
 
-.team-content::before {
-    height: 200px;
-    display: block;
+.team .team-item .team-img img {
+    transition: 0.5s;
+}
+
+.team .team-item:hover .team-img img {
+    transform: scale(1.1);
+}
+
+.team .team-item .team-img .team-icon {
+    position: absolute;
+    bottom: 20px;
+    right: -100%;
+    z-index: 9;
+    transition: 0.5s;
+}
+
+.team .team-item:hover .team-img .team-icon {
+    right: 25px;
+}
+
+.team .team-item .team-img::after {
     content: "";
-    position: relative;
-    top: -101px;
-    background: var(--bs-primary);
-    clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
-    padding: 60px;
-    opacity: 1;
-}
-
-.team-img-icon {
-    position: relative;
-    margin-top: -200px;
-    padding: 30px;
-    padding-bottom: 0;
-}
-
-.team-img {
-    border: 15px solid var(--bs-white);
-}
-
-.team-img img {
-    height: 250px;
-    transition: .5s;
-
-}
-
-.team-item:hover h4 {
-    color: var(--bs-primary);
-    transition: .5s;
-}
-
-.team-item:hover .team-img img {
-    transform: scale(1.05);
-    border: 10px solid var(--bs-primary);
-}
-
-.team-carousel .owl-stage {
-    position: relative;
+    position: absolute;
     width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: rgba(246, 138, 10, .2);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.team .team-item:hover .team-img::after {
     height: 100%;
 }
 
-.team-carousel .owl-nav {
-    position: absolute;
-    top: -100px;
-    right: 50px;
-    display: flex;
+.team .team-item .team-content {
+    transition: 0.5s;
 }
 
-.team-carousel .owl-nav .owl-prev,
-.team-carousel .owl-nav .owl-next {
-    width: 56px;
-    height: 56px;
-    border-radius: 56px;
-    margin-left: 15px;
-    background: var(--bs-primary);
-    color: var(--bs-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s;
+.team .team-item:hover .team-content {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
 }
 
-.team-carousel .owl-nav .owl-prev:hover,
-.team-carousel .owl-nav .owl-next:hover {
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
-
-@media (max-width: 992px) {
-    .team-carousel {
-        margin-top: 3rem;
-    }
-
-    .team-carousel .owl-nav {
-        top: -85px;
-        left: 50%;
-        right: auto;
-        transform: translateX(-50%);
-        margin-left: -15px;
-    }
+.team-img-height {
+    height: 350px;
 }
 
 /*** Team End ***/
+
 
 /* Services */
 /*** Solutions ***/
@@ -611,7 +586,7 @@ textarea.form-control.border-0 {
 /* Prestigiouis Projects*/
 
 .team-card {
-    background-color: #6ec1e4;
+    background-color: #FD5D14;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -634,3 +609,140 @@ textarea.form-control.border-0 {
         font-size: 16px;
     }
 }
+
+
+/*** Testimonial Start ***/
+.testimonial-carousel .owl-stage-outer {
+    margin-right: -1px;
+}
+
+.testimonial .testimonial-item {
+    position: relative;
+    margin-top: 35px;
+}
+
+.testimonial .testimonial-item .customer-text {
+    border: 1px solid var(--bs-primary);
+    border-top: none;
+}
+
+.testimonial .testimonial-item .testimonial-quote {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 25px;
+    transform: translateY(-50%);
+    color: var(--bs-dark);
+    background: var(--bs-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial .testimonial-item .testimonial-inner {
+    display: flex;
+    align-items: center;
+    background: var(--bs-white);
+}
+
+.testimonial .testimonial-item .testimonial-inner img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid var(--bs-primary);
+}
+
+.testimonial-carousel .owl-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-carousel .owl-dots .owl-dot {
+    width: 30px;
+    height: 30px;
+    margin: 30px 10px 0 10px;
+    background: var(--bs-white);
+    transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+    .testimonial-carousel .owl-dots .owl-dot {
+        margin: 0 10px 0 10px;
+    }
+}
+
+.testimonial-carousel .owl-dots .owl-dot.active {
+    width: 30px;
+    height: 30px;
+    background: var(--bs-primary);
+    transition: 0.5s;
+}
+
+.testimonial-carousel .owl-dots .owl-dot span {
+    position: relative;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-carousel .owl-dots .owl-dot.active span::after {
+    background: var(--bs-white);
+}
+
+.testimonial-carousel .owl-dots .owl-dot span::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--bs-primary);
+    transition: 0.5s;
+}
+
+/*** Testimonial End ***/
+
+
+/*** FAQs Start ***/
+.faq-section .accordion .accordion-item {
+    margin-bottom: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    border: none;
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button {
+    color: var(--bs-white);
+    background: #FD5D14;
+    font-size: 18px;
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    color: var(--bs-dark);
+    background: var(--bs-light);
+}
+
+/*** FAQs End ***/
+
+
+/*** Blog Start ***/
+.blog-img {
+    height: 250px;
+    width: 100%;
+}
+
+
+
+
+/*** Blog End ***/

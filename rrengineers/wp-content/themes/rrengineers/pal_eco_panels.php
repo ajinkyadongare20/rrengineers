@@ -70,19 +70,19 @@ get_header();
                 <div class="row g-3">
                     <div class="col-6 text-end">
                         <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.1s"
-                            src="<?php bloginfo('template_directory'); ?>/img/team-1.jpg" style="margin-top: 25%;">
+                            src="<?php bloginfo('template_directory'); ?>/img/services/1.jpg" style="margin-top: 25%;">
                     </div>
                     <div class="col-6 text-start">
                         <img class="img-fluid w-100 wow zoomIn" data-wow-delay="0.3s"
-                            src="<?php bloginfo('template_directory'); ?>/img/team-2.jpg">
+                            src="<?php bloginfo('template_directory'); ?>/img/services/2.jpg">
                     </div>
                     <div class="col-6 text-end">
                         <img class="img-fluid w-50 wow zoomIn" data-wow-delay="0.5s"
-                            src="<?php bloginfo('template_directory'); ?>/img/team-3.jpg">
+                            src="<?php bloginfo('template_directory'); ?>/img/services/3.jpg">
                     </div>
                     <div class="col-6 text-start">
                         <img class="img-fluid w-75 wow zoomIn" data-wow-delay="0.7s"
-                            src="<?php bloginfo('template_directory'); ?>/img/team-4.jpg">
+                            src="<?php bloginfo('template_directory'); ?>/img/services/4.jpg">
                     </div>
                 </div>
             </div>
@@ -116,7 +116,7 @@ get_header();
                 onmouseout="this.style.transform='scale(1)'">
                 <div class="col-md-3 text-center">
                     <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/panel/ART P 80 Internal Use.png"
-                        alt="ART P 80 Internal Use" class="img-fluid p-2" />
+                        alt="RR P 80 Internal Use" class="img-fluid p-2" />
                 </div>
                 <div class="col-md-9 border-start border-4 border-primary ps-4">
                     <h5 class="text-primary fw-bold">ART P 80 Internal Use</h5>
@@ -133,272 +133,31 @@ get_header();
                 </div>
             </div>
         </div>
-
-
-
-        <h2 class="display-6 text-center fw-bold py-5">Accessories</h2>
-        <div class="row g-4">
-
-            <!-- Accessory 1 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/ART ES 10 Pal Eco System Green Color Polymer Invisible Profile.png"
-                                alt="ART ES 10" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART ES 10 Pal Eco System</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> Green Color Polymer Invisible</p>
-                            <p class="mb-1"><span class="text-dark">Thickness:</span> 20 mm</p>
-                            <p class="mb-1"><span class="text-dark">Length:</span> 4 mtr</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 ES 13</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accessory 2 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/ART AC 11 ART AC 11 H Bayonet in Polymer.png"
-                                alt="ART AC 11" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART AC 11</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> H Bayonet in Polymer</p>
-                            <p class="mb-1"><span class="text-dark">Length:</span> 4 mtr</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 AC 11</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accessory 3 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/ART ES 12 ART ES 12 Corner Cover in Polymer.png"
-                                alt="ART ES 12" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART ES 12</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> Corner Cover in Polymer</p>
-                            <p class="mb-1"><span class="text-dark">Thickness:</span> 20 mm</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 ES 12</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accessory 4 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/ART AC 13 Corner Plate for Invisible Profile.png"
-                                alt="ART AC 13" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART AC 13</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> Corner Plate for Invisible Profile
-                            </p>
-                            <p class="mb-1"><span class="text-dark">Thickness:</span> 20 mm</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 ES 13</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accessory 5 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/ART ES 14 Pal Eco System Green Aluminum U Profile.png"
-                                alt="ART ES 14" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART ES 14 Pal Eco System</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> Green Aluminum U Profile</p>
-                            <p class="mb-1"><span class="text-dark">Thickness:</span> 20 mm</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 ES 14 | <span
-                                    class="text-dark">Length:</span> 4 mtr</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accessory 6 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/RT ES 15 Pal Eco System Green Aluminum Chair Profile.png"
-                                alt="ART ES 15" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART ES 15 Pal Eco System</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> Green Aluminum Chair Profile</p>
-                            <p class="mb-1"><span class="text-dark">Thickness:</span> 20 mm</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 ES 15 | <span
-                                    class="text-dark">Length:</span> 4 mtr</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accessory 7 -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/accessories/ART ES 16 Pal Eco System Green Aluminum F Profile.png"
-                                alt="ART ES 16" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART ES 16 Pal Eco System</h6>
-                            <p class="mb-1"><span class="text-dark">Profile:</span> Green Aluminum F Profile</p>
-                            <p class="mb-1"><span class="text-dark">Thickness:</span> 20 mm</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 ES 16 | <span
-                                    class="text-dark">Length:</span> 4 mtr</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-
-        <h2 class="display-6 text-center fw-bold py-5">Adhesive Material</h2>
-        <div class="row g-4">
-
-            <!-- ART M 23 PAL Adhesive -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/adhesive_material/ART M 23 PAL Adhesive.png"
-                                alt="ART M 23 PAL Adhesive" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART M 23 PAL Adhesive</h6>
-                            <p class="mb-1"><span class="text-dark">Capacity:</span> 15 kg / Tin</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> M 23</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ART M 24 Aluminum Tape -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/adhesive_material/ART M 24 Aluminum Tape.png"
-                                alt="ART M 24 Aluminum Tape" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART M 24 Aluminum Tape</h6>
-                            <p class="mb-1"><span class="text-dark">Width:</span> 50mm for 20mm Panel</p>
-                            <p class="mb-0"><span class="text-dark">Code:</span> 20 M 24</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ART M 25 PAL Sealant -->
-            <div class="col-md-6">
-                <div class="bg-white p-3 rounded box-shadow-card h-100" style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'"
-                onmouseout="this.style.transform='scale(1)'">
-                    <div class="row g-3">
-                        <div class="col-4 text-center">
-                            <img src="<?php bloginfo('template_directory'); ?>/img/pal_eco_panels/adhesive_material/ART M 25 PAL Sealant.png"
-                                alt="ART M 25 PAL Sealant" class="img-fluid">
-                        </div>
-                        <div class="col-8">
-                            <h6 class="text-primary fw-bold">ART M 25 PAL Sealant</h6>
-                            <p class="mb-0"><span class="text-dark">Code:</span> M 25</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
     </div>
 </div>
 
 
-    <!-- Appointment Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="row gx-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="mb-4">
-                    <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
-                </div>
-                <p class="mb-5">
-                    Looking for expert solutions in Pre-Insulated Ducting, HVAC systems, CNC Fabrication, or Ventilation
-                    Projects?
-                    Fill out the form and our team will get in touch to discuss your project and offer the best service and
-                    pricing options.
-                </p>
-                <a class="btn btn-primary py-3 px-5" href="<?php echo site_url('/contact'); ?>">Contact Us</a>
+<!-- Appointment Start -->
+<div class="container-fluid py-6 px-5">
+    <div class="row gx-5">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="mb-4">
+                <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
             </div>
-            <div class="col-lg-8">
-                <div class="bg-light text-center p-1 px-lg-5">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <!-- Dropdown field added here -->
-                                <select class="form-select border-0" style="height: 55px;">
-                                    <option selected disabled>Select Service Type</option>
-                                    <option value="ducting">Pre-Insulated Ducting</option>
-                                    <option value="hvac">HVAC System</option>
-                                    <option value="cnc">CNC Fabrication</option>
-                                    <option value="ventilation">Ventilation Project</option>
-                                    <option value="others">Others</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" rows="5"
-                                    placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+            <p class="mb-5">
+                Looking for expert solutions in Pre-Insulated Ducting, HVAC systems, CNC Fabrication, or Ventilation
+                Projects?
+                Fill out the form and our team will get in touch to discuss your project and offer the best service and
+                pricing options.
+            </p>
+            <a class="btn btn-primary py-3 px-5" href="<?php echo site_url('/contact'); ?>">Contact Us</a>
+        </div>
+        <div class="col-lg-8">
+            <?php echo do_shortcode('[contact-form-7 id="a32a9d4" title="Contact form 2 - Quote"]'); ?>
         </div>
     </div>
-    <!-- Appointment End -->
-
-
-
-
+</div>
+<!-- Appointment End -->
 
 <?php
 // get_sidebar();

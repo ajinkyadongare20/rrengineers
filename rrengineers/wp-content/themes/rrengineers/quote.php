@@ -31,7 +31,7 @@ get_header();
     <!-- Page Header End -->
 
 
-     <!-- Appointment Start -->
+    <!-- Appointment Start -->
     <div class="container-fluid py-6 px-5">
         <div class="row gx-5">
             <div class="col-lg-4 mb-5 mb-lg-0">
@@ -47,39 +47,7 @@ get_header();
                 <a class="btn btn-primary py-3 px-5" href="<?php echo site_url('/contact'); ?>">Contact Us</a>
             </div>
             <div class="col-lg-8">
-                <div class="bg-light text-center p-1 px-lg-5">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <!-- Dropdown field added here -->
-                                <select class="form-select border-0" style="height: 55px;">
-                                    <option selected disabled>Select Service Type</option>
-                                    <option value="ducting">Pre-Insulated Ducting</option>
-                                    <option value="hvac">HVAC System</option>
-                                    <option value="cnc">CNC Fabrication</option>
-                                    <option value="ventilation">Ventilation Project</option>
-                                    <option value="others">Others</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" rows="5"
-                                    placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <?php echo do_shortcode('[contact-form-7 id="a32a9d4" title="Contact form 2 - Quote"]'); ?>
             </div>
         </div>
     </div>

@@ -15,20 +15,27 @@
     <div class="footer container-fluid position-relative bg-dark bg-light-radial text-white-50 py-6 px-5">
         <div class="row g-5">
             <div class="col-lg-6 pe-lg-5">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0 display-4 text-uppercase text-white">
-                        <i class="bi bi-building text-primary me-2"></i><span class="display-6">RR Engineers</span>
-                    </h1>
+                <a href="<?php echo site_url('/index'); ?>" class="navbar-brand d-flex align-items-center mx-auto mb-3">
+                    <img src="<?php bloginfo('template_directory'); ?>/img/rr_logo.png" alt="RR Engineers Logo" style="height: 60px;">
+                    <!-- <h1 class="m-0 fs-5 text-white">RREngineers & Contractors</h1> -->
                 </a>
-                <p>Established in the year 2011, RR Engineers & Contractors is a leading firm offering Pre-Insulated Ducting Systems, Eco Panels, Spiral Ducting, CNC Machines, Fabrication Tools, and Ducting Accessories. Known for quality, durability, and precision, our products serve the needs of commercial, industrial, and residential projects.</p>
+                <p>Established in the year 2012, RR Engineers & Contractors is a leading firm offering Pre-Insulated Ducting Systems, Eco Panels, Spiral Ducting, CNC Machines, Fabrication Tools, and Ducting Accessories. Known for quality, durability, and precision, our products serve the needs of commercial, industrial, and residential projects.</p>
                 <p><i class="fa fa-map-marker-alt me-2"></i>NO-2, Shree Ganesh Vastu, Ashiyana Park-2, Opp. Gaikwad Petrol Pump, Aundh, Pune – 411007, Maharashtra, India</p>
                 <p><i class="fa fa-phone-alt me-2"></i>+91 9421677901, 9881301270</p>
                 <p><i class="fa fa-envelope me-2"></i>sales@rrengineers.in</p>
                 <div class="d-flex justify-content-start mt-4">
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="https://www.facebook.com/RREngineersContractorsPune" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="https://www.youtube.com/channel/UCNwP4fdDR8f_Z2SuZs3MKvQ?view_as=subscriber" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0 me-2" href="https://www.linkedin.com/company/rr-engineers-and-contractors/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-lg btn-primary btn-lg-square rounded-0" href="https://x.com/engineers_rr" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-6 ps-lg-5">
@@ -88,6 +95,9 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- CounterUp JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
     <script src="<?php bloginfo('template_directory'); ?>/lib/wow/wow.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/lib/easing/easing.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/lib/waypoints/waypoints.min.js"></script>
@@ -104,5 +114,4 @@
 	<?php wp_footer(); ?>
 
     </body>
-
     </html>

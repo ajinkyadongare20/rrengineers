@@ -50,8 +50,6 @@
 
 </head>
 
-
-
     <body>
     <!-- Topbar Start -->
     <!-- <div class="container-fluid px-5 d-none d-lg-block">
@@ -88,16 +86,13 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm py-2 px-3 px-lg-3">
-        <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0">
-            <a href="index.php" class="navbar-brand">
-                <h1 class="m-0 display-6 text-uppercase text-white"><i class="bi bi-building text-primary me-2"></i>RREngineers</h1>
-            </a>
-            
-            <!-- <a href="index.php" class="navbar-brand">
-                <img src="<?php bloginfo('template_directory'); ?>/img/rrengineers_logo.png" alt="RR Engineers Logo" style="height: 40px;">
-            </a> -->
+   <!-- Navbar Start -->
+   <div class="container-fluid sticky-top bg-dark bg-light-radial shadow-sm py-2 px-3 px-lg-3">
+    <nav class="navbar navbar-expand-lg bg-dark bg-light-radial navbar-dark py-3 py-lg-0 justify-content-center">
+        <a href="<?php echo site_url('/index'); ?>" class="navbar-brand d-flex align-items-center mx-auto ms-0 ms-lg-5">
+            <img src="<?php bloginfo('template_directory'); ?>/img/rr_logo.png" alt="RR Engineers Logo" style="height: 60px;">
+            <!-- <h1 class="m-0 fs-5 text-white">RREngineers & Contractors</h1> -->
+        </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -108,7 +103,7 @@
                             'theme_location'    => 'menu-1',
                             'container'         => false,
                             'container_class'   => '',
-                            'menu_class'        => 'navbar-nav ms-auto',
+                            'menu_class'        => 'navbar-nav ms-auto me-0',
                             'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                             'depth'             => 3,
                             'walker'            => new wp_bootstrap_navwalker()

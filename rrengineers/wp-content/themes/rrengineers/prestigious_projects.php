@@ -344,7 +344,123 @@ get_header();
 <!-- End Products  -->
 
 
-   <!-- Appointment Start -->
+<!-- Projects FAQ Start -->
+<div class="container-fluid faq-section bg-light py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <h4 class="text-primary">FAQs – Our Projects</h4>
+                <h1 class="display-4 mb-4">Frequently Asked Questions</h1>
+                <p class="mb-4">
+                    Learn more about our project execution approach, timelines, customization options, and industry
+                    coverage across HVAC, ducting, and turnkey MEPF solutions.
+                </p>
+                <a class="btn btn-primary py-3 px-5" href="#contact">Need Project Consultation?</a>
+            </div>
+            <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="h-100">
+                    <div class="accordion" id="accordionProjects">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="projectOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProjectOne" aria-expanded="true"
+                                    aria-controls="collapseProjectOne">
+                                    Q: What industries do your projects cover?
+                                </button>
+                            </h2>
+                            <div id="collapseProjectOne" class="accordion-collapse collapse show"
+                                aria-labelledby="projectOne" data-bs-parent="#accordionProjects">
+                                <div class="accordion-body">
+                                    A: Our projects span industrial manufacturing plants, pharmaceutical units,
+                                    cleanrooms, commercial complexes, warehouses, data centers, and hospitals — all
+                                    requiring efficient air management.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="projectTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProjectTwo" aria-expanded="false"
+                                    aria-controls="collapseProjectTwo">
+                                    Q: Do you offer complete turnkey project execution?
+                                </button>
+                            </h2>
+                            <div id="collapseProjectTwo" class="accordion-collapse collapse"
+                                aria-labelledby="projectTwo" data-bs-parent="#accordionProjects">
+                                <div class="accordion-body">
+                                    A: Yes, from design and material supply to fabrication, installation, insulation,
+                                    and commissioning, we handle complete end-to-end execution with in-house teams and
+                                    certified processes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="projectThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProjectThree" aria-expanded="false"
+                                    aria-controls="collapseProjectThree">
+                                    Q: How do you ensure timely project delivery?
+                                </button>
+                            </h2>
+                            <div id="collapseProjectThree" class="accordion-collapse collapse"
+                                aria-labelledby="projectThree" data-bs-parent="#accordionProjects">
+                                <div class="accordion-body">
+                                    A: We follow milestone-based planning, on-site execution schedules, and internal
+                                    fabrication which allows us to deliver within committed timelines while maintaining
+                                    quality.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="projectFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProjectFour" aria-expanded="false"
+                                    aria-controls="collapseProjectFour">
+                                    Q: Can your solutions be customized for different plant layouts?
+                                </button>
+                            </h2>
+                            <div id="collapseProjectFour" class="accordion-collapse collapse"
+                                aria-labelledby="projectFour" data-bs-parent="#accordionProjects">
+                                <div class="accordion-body">
+                                    A: Absolutely. We customize duct routing, ventilation planning, and component
+                                    placement based on site-specific layouts, machinery zones, airflow calculations, and
+                                    energy goals.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="projectFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProjectFive" aria-expanded="false"
+                                    aria-controls="collapseProjectFive">
+                                    Q: What certifications or standards do you follow in projects?
+                                </button>
+                            </h2>
+                            <div id="collapseProjectFive" class="accordion-collapse collapse"
+                                aria-labelledby="projectFive" data-bs-parent="#accordionProjects">
+                                <div class="accordion-body">
+                                    A: We follow ISO-certified procedures, ISHRAE standards, fire safety norms, and for
+                                    cleanroom projects, adhere to GMP and WHO guidelines. Client QC and sign-off is done
+                                    at every stage.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> <!-- end accordion -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Projects FAQ End -->
+
+
+<!-- Appointment Start -->
     <div class="container-fluid py-6 px-5">
         <div class="row gx-5">
             <div class="col-lg-4 mb-5 mb-lg-0">
@@ -360,45 +476,11 @@ get_header();
                 <a class="btn btn-primary py-3 px-5" href="<?php echo site_url('/contact'); ?>">Contact Us</a>
             </div>
             <div class="col-lg-8">
-                <div class="bg-light text-center p-1 px-lg-5">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="tel" class="form-control border-0" placeholder="Your Phone Number" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <!-- Dropdown field added here -->
-                                <select class="form-select border-0" style="height: 55px;">
-                                    <option selected disabled>Select Service Type</option>
-                                    <option value="ducting">Pre-Insulated Ducting</option>
-                                    <option value="hvac">HVAC System</option>
-                                    <option value="cnc">CNC Fabrication</option>
-                                    <option value="ventilation">Ventilation Project</option>
-                                    <option value="others">Others</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" rows="5"
-                                    placeholder="How can we help you? (e.g., ducting project, insulation, ventilation design)"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+                <?php echo do_shortcode('[contact-form-7 id="a32a9d4" title="Contact form 2 - Quote"]'); ?>
             </div>
         </div>
     </div>
     <!-- Appointment End -->
-
-
 
 
 <?php
