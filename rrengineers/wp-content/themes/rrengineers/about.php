@@ -324,7 +324,7 @@ get_header();
                         </div>
                     </div>
                     <div class="team-content bg-light text-center p-4">
-                        <h4>Ms. Nisha Shashidhar</h4>
+                        <h4>Mrs. Nisha Shashidhar</h4>
                         <p class="mb-0">Managing Director</p>
                     </div>
                 </div>

@@ -278,10 +278,13 @@ get_header();
                 <div class="row g-4 pt-3">
                     <div class="col-sm-6">
                         <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
-                            <i class="fa fa-users fa-3x text-white"></i>
+                            <i class="fa fa-check fa-3x text-white"></i>
                             <div class="ms-3">
-                                <h2 class="text-primary mb-0" data-toggle="counter-up">450</h2>
-                                <p class="text-white mb-0">Happy Clients</p>
+                                <div class="d-flex">
+                                    <h2 class="text-primary mb-0" data-toggle="counter-up">95</h2>
+                                    <span class="text-primary ms-1" style="font-size: 1.5rem;">%</span>
+                                </div>
+                                <p class="text-white mb-0">Happy Client</p>
                             </div>
                         </div>
                     </div>
@@ -289,7 +292,7 @@ get_header();
                         <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
                             <i class="fa fa-check fa-3x text-white"></i>
                             <div class="ms-3">
-                                <h2 class="text-primary mb-0" data-toggle="counter-up">850</h2>
+                                <h2 class="text-primary mb-0" data-toggle="counter-up">695</h2>
                                 <p class="text-white mb-0">Projects Completed</p>
                             </div>
                         </div>
@@ -804,7 +807,7 @@ get_header();
                         </div>
                     </div>
                     <div class="team-content bg-light text-center p-4">
-                        <h4>Ms. Nisha Shashidhar</h4>
+                        <h4>Mrs. Nisha Shashidhar</h4>
                         <p class="mb-0">Managing Director</p>
                     </div>
                 </div>
