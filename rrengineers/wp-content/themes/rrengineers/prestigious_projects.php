@@ -188,9 +188,9 @@ get_header();
             <div class="col-md-6 mb-4 py-3">
                 <div class="card team-card h-100 mx-2 rounded-0"><img
                         src="<?php bloginfo('template_directory'); ?>/img/projects/LOREL COSMETICS CHAKAN.jpg"
-                        class="product-card rounded-0" alt="LOREL COSMETICS CHAKAN">
+                        class="product-card rounded-0" alt="LOREAL COSMETICS CHAKAN">
                     <div class="card-body">
-                        <h5 class="card-title text-white">LOREL COSMETICS CHAKAN</h5>
+                        <h5 class="card-title text-white">LOREAL COSMETICS CHAKAN</h5>
                     </div>
                 </div>
             </div>

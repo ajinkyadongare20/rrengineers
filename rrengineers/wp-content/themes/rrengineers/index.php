@@ -61,7 +61,6 @@ get_header();
                     </div>
                 </div>
             </div>
-
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
@@ -231,9 +230,7 @@ get_header();
                 </div>
             </div>
         </div>
-
     </div>
-
 </div>
 <!-- Services End -->
 
@@ -977,7 +974,7 @@ get_header();
                             <img src="<?php bloginfo('template_directory'); ?>/img/testimonial/Testimonial-6.jpg"
                                 class="img-fluid" alt="">
                             <div class="ms-4">
-                                <h4>Mr. Rasgtogi</h4>
+                                <h4>Mr. Rastogi</h4>
                                 <p>Service Consultant, (IFB)</p>
                                 <div class="d-flex text-primary">
                                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
@@ -1221,7 +1218,6 @@ get_header();
     </div>
 </div>
 <!-- Appointment End -->
-
 
 
 <?php

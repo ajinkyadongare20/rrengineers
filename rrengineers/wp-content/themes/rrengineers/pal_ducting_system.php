@@ -104,9 +104,7 @@ get_header();
         lightweight construction, and superior indoor air quality performance.
     </p>
     <h5 class="text-dark py-3">PAL Duct Panels for Internal & External Use</h5>
-
     <div class="row">
-
         <!-- Panel 1 -->
         <div class="col-md-12 my-4">
             <div class="row g-3 bg-white p-3 rounded box-shadow-card align-items-center"
